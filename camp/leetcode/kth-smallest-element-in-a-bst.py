@@ -15,6 +15,5 @@ class Solution:
             q.append(node.val)
             inorder(node.right)
         inorder(root)
-        print(q)
         return q[k-1]
         
