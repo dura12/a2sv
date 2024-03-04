@@ -1,6 +1,5 @@
 class Solution:
     def combine(self, n: int, k: int) -> List[List[int]]:
-        num = [i+1 for i in range(n)]
         res = []
         def comb(curr ,i):
             if len(curr) == k :
