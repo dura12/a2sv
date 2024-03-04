@@ -7,7 +7,7 @@ class Solution:
                 temp = curr.copy()
                 temp.sort()
                 if temp not in res:
-                    res.append(temp.copy())
+                    res.append(temp)
             else:
                 return
             for j in range(i , len(nums)):
