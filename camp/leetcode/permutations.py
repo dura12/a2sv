@@ -4,7 +4,7 @@ class Solution:
         ans = []
         res = []
         def back(curr):
-            if len(set(curr)) == len(nums):
+            if len(curr) == len(nums):
                 res.append(curr.copy())
                 return 
             for i in nums:
