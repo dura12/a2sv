@@ -1,9 +1,9 @@
 class Solution:
     def splitArray(self, nums: List[int], k: int) -> int:
-        def check(arr, guess, k):
+        def check(n, guess, k):
             s = 0
             c = 1
-            for i in arr:
+            for i in n:
                 if s + i > guess:
                     s = 0
                     c += 1
